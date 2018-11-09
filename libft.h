@@ -6,7 +6,7 @@
 /*   By: abhaviri <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/31 16:27:10 by abhaviri          #+#    #+#             */
-/*   Updated: 2018/11/08 21:17:45 by abhaviri         ###   ########.fr       */
+/*   Updated: 2018/11/08 21:32:29 by abhaviri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int					ft_isdigit(int c);
 int					ft_isalpha(int c);
 int					ft_isalnum(int c);
 int					ft_isascii(int c);
+int					ft_isprint(int c);
 int					ft_toupper(int c);
 int					ft_tolower(int c);
 int					ft_atoi(const char *str);
